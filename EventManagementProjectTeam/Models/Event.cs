@@ -8,6 +8,7 @@ namespace EventManagementProjectTeam.Models
         public int EventId { get; set; }
         public string Name { get; set; }
         public string Category { get; set; }
+        //here
         public string Location { get; set; }
         public DateOnly Date { get; set; }
         public int OrganizerId { get; set; }
